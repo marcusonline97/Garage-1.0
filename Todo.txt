@@ -1,0 +1,23 @@
+﻿The Garage To do List:
+
+This program is meant to simulate a garage application. It is meant to simulate a simple garage. The ability to park a vehicle, to retrieve a vehicle and also browse to see 
+which vehicles are available in the garage and what their properties are. 
+All of this will be included in a consoleApp with a mainMenu and some submenus
+
+Garage: A representation of the building. Where a certain amount of vehicles can be stored. The Garage is represented as a collection of Vehicles.
+
+Vehicles: Cars, motorbikes, onewheelers and whichever vehicle we wanna add into the garage.
+These are two object types we would see in a physical garage. 
+But upon closer review should also have subclasses to vehicle, meaning every vehicle is a subclass in the system.
+Besides that functionality which handles vehicles being put in a garage, being retrieved from a garage and also a review of what currently is present within the garage.
+So writing out the contents of the garage essentially.
+
+1. Carry a collection of vehicles within the class Garage
+
+2. A Vehicle Klass named Vehicle
+
+3. A certain amount of subclasses for the vehicles.
+
+4. A userinterface which allows us functionality within the garage. Here is where all user interaction will occur
+
+5. A GarageHandler. To abstract a layer which has no real contact between the UserInterface and GarageClass. 
